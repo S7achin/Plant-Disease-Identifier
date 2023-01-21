@@ -15,7 +15,24 @@
 
 13. git log
 14. git log -p -1                          // how much last commit want
-15. git diff                               // to see changes in files
+15. git diff                               // to see changes in files compared with statging area
+16. git diff --staged                      // compare staging area with last commit
+
+17. git commit -a -m "skipped staging area directly commited"
+18. git rm waste.html                      // Delete this file
+19. git rm --cached waste.html             // Move this file to untracked area
+
+20. git status -s
+21. touch .gitignore
+    - mylogs.log                // ignore all mylogs.log file may be present in other folder this too
+    - /mylogs.log               // ignoring mylogs.log present corresponding to .gitignore only not of other folder
+    - *.log                     // ignoring all files with .log extension
+    - ignore/                   // Ignoring ignore named folder
+
+23. git branch
+24. git branch feature1        // creating new branch feature1
+25.
+
 
 
 
