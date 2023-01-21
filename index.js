@@ -6,7 +6,7 @@ const app = express();
 const port = 80;
 
 // Connect with DB
-const DB = "mongodb+srv://sp68:Sachin68@cluster0.krvu6dd.mongodb.net/Registration?retryWrites=true&w=majority";
+const DB = "mongodb+srv://username:password@cluster2.krab9de.mongodb.net/Registration?retryWrites=true&w=majority";
 mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
   console.log("Connected with DB");
 }).catch((err) => console.log("Not Connected", err));
