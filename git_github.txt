@@ -1,0 +1,23 @@
+1. git config --global user.name
+2. git init
+3. ls -lart
+4. git status
+5. git add encryption.py
+6. git status
+7. git commit
+8. git status
+9. git add -A
+10. git commit -m "Added more html files"
+
+// Regain modified file
+11. git checkout contact.html
+12. git checkout -f                         // regain all files
+
+13. git log
+14. git log -p -1                          // how much last commit want
+15. git diff                               // to see changes in files
+
+
+
+
+
