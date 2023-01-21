@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/CSS.css">
+    <script src="/static/JS/Js1.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="/login" method="post">
+            <div class="input">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Enter your name" autocomplete="off" required>
+                <small>Error message</small>
+            </div>
+            <div class="input show">
+                <label for="pswd3">Password</label>
+                <input type="password" name="password" id="pswd3" placeholder="Enter Password" required>
+                <small>Error message</small>
+            </div>
+            <div class="set">
+                <input class="check" type="checkbox" id="ch" onclick="myLogFunction()">
+                <label for="ch"><span>Show Password</span></label>
+            </div>
+            <button type="submit">Login</button>
+            <div id="login" class="log">
+            <span>New User?</span>
+            <span class="login"><a href="/register">Sign Up</a></span>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

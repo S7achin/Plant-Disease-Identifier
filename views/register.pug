@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/static/CSS.css">
+    <script src="/static/JS/Js1.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration</h1>
+        <form method="post" class="form" id="form" action="/register">
+            <div class="input">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Enter your name" autocomplete="off" required >
+                <small>Error message</small>
+            </div>
+            <div class="input">
+                <label for="no">Mobile No.</label>
+                <input type="text" name="no" id="no" placeholder="Enter your number" autocomplete="off" maxlength="10" required>
+                <small>Error message</small>
+            </div>
+            <div class="input show">
+                <label for="pswd1">Create Password</label>
+                <input type="password" name="password" id="pswd1" placeholder="Enter Password" required>
+                <small>Error message</small>
+            </div>
+            <div>
+                <input class="check" type="checkbox" id="ch" onclick="myRegFunction()">
+                <label for="ch"><span>Show Password</span></label>
+            </div>
+            <br>
+            <div class="input">
+                <label for="pswd2">Confirm Password</label>
+                <input type="password" name="cpassword" id="pswd2" placeholder="Confirm Password" required >
+                <small>Error message</small>
+            </div>
+            <button onclick="matchPassword()">Register Now</button>
+        </form>
+        <div id="login">
+            <span>Already have an account?</span>
+            <span class="login"><a href="/login">Login now</a></span>
+        </div>
+    </div>
+</body>
+
+</html>
