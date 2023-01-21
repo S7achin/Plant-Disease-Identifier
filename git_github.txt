@@ -29,10 +29,11 @@
     - *.log                     // ignoring all files with .log extension
     - ignore/                   // Ignoring ignore named folder
 
-23. git branch
+23. git branch                 // view all branches
 24. git branch feature1        // creating new branch feature1
-25. git checkout feature1
-26. git merge feature1
+25. git checkout feature1      // move to feature1 branch
+26. git merge feature1         // merge content of feature1 to master
+27. 
 
 
 
