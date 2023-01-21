@@ -31,7 +31,7 @@
 
 23. git branch
 24. git branch feature1        // creating new branch feature1
-25.
+25. git checkout feature1
 
 
 
