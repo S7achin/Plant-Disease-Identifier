@@ -33,7 +33,7 @@
 24. git branch feature1        // creating new branch feature1
 25. git checkout feature1      // move to feature1 branch
 26. git merge feature1         // merge content of feature1 to master
-27. 
+27. git checkout -b fl         // create and switched to branch f1
 
 
 
